@@ -1,0 +1,5 @@
+isl= input("Введите элементы списка через пробел: ")
+w = isl.split()
+unique_w= set(w)
+count = len(unique_w)
+print("Количество уникальных элементов:", count)
